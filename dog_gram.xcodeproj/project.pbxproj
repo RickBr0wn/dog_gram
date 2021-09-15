@@ -15,6 +15,8 @@
 		116840EB26F21C420097AB2F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840EA26F21C420097AB2F /* Extensions.swift */; };
 		116840ED26F21E7D0097AB2F /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840EC26F21E7D0097AB2F /* FeedView.swift */; };
 		116840EF26F21F170097AB2F /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840EE26F21F170097AB2F /* PostView.swift */; };
+		116840F226F2239A0097AB2F /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840F126F2239A0097AB2F /* PostModel.swift */; };
+		116840F426F22B6C0097AB2F /* PostArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840F326F22B6C0097AB2F /* PostArrayObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		116840EA26F21C420097AB2F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		116840EC26F21E7D0097AB2F /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		116840EE26F21F170097AB2F /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		116840F126F2239A0097AB2F /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		116840F326F22B6C0097AB2F /* PostArrayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostArrayObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		116840D426F2145E0097AB2F /* dog_gram */ = {
 			isa = PBXGroup;
 			children = (
+				116840F026F2238F0097AB2F /* Models */,
 				116840E926F21C2A0097AB2F /* Extras */,
 				116840E626F21A730097AB2F /* Views */,
 				116840D926F2145F0097AB2F /* Assets.xcassets */,
@@ -83,7 +88,6 @@
 			children = (
 				116840E826F21A840097AB2F /* Screens */,
 				116840E726F21A7A0097AB2F /* SubViews */,
-				116840EC26F21E7D0097AB2F /* FeedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -100,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				116840D526F2145E0097AB2F /* dog_gramApp.swift */,
+				116840EC26F21E7D0097AB2F /* FeedView.swift */,
 				116840D726F2145E0097AB2F /* ContentView.swift */,
 			);
 			path = Screens;
@@ -111,6 +116,15 @@
 				116840EA26F21C420097AB2F /* Extensions.swift */,
 			);
 			path = Extras;
+			sourceTree = "<group>";
+		};
+		116840F026F2238F0097AB2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				116840F126F2239A0097AB2F /* PostModel.swift */,
+				116840F326F22B6C0097AB2F /* PostArrayObject.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,8 +198,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				116840ED26F21E7D0097AB2F /* FeedView.swift in Sources */,
+				116840F226F2239A0097AB2F /* PostModel.swift in Sources */,
 				116840D826F2145E0097AB2F /* ContentView.swift in Sources */,
 				116840EB26F21C420097AB2F /* Extensions.swift in Sources */,
+				116840F426F22B6C0097AB2F /* PostArrayObject.swift in Sources */,
 				116840EF26F21F170097AB2F /* PostView.swift in Sources */,
 				116840D626F2145E0097AB2F /* dog_gramApp.swift in Sources */,
 			);

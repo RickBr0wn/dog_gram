@@ -23,3 +23,20 @@ extension Color {
     }
   }
 }
+
+extension PreviewProvider {
+  static var dev: DeveloperPreview {
+    DeveloperPreview.instance
+  }
+}
+
+class DeveloperPreview {
+  static let instance = DeveloperPreview()
+  
+  private init() {}
+  
+  let post = PostModel(postID: "postId12345", userID: "userID1234", username: "username", caption: "a random caption", dateCreated: Date(), likeCount: 42, isLikedByUser: true)
+  
+  let posts = PostArrayObject()
+  
+}
