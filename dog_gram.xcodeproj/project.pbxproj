@@ -12,6 +12,7 @@
 		116840DA26F2145F0097AB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116840D926F2145F0097AB2F /* Assets.xcassets */; };
 		116840DD26F2145F0097AB2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116840DC26F2145F0097AB2F /* Preview Assets.xcassets */; };
 		116840E526F218CF0097AB2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116840E426F218CF0097AB2F /* LaunchScreen.storyboard */; };
+		116840EB26F21C420097AB2F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840EA26F21C420097AB2F /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		116840DC26F2145F0097AB2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		116840DE26F2145F0097AB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		116840E426F218CF0097AB2F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		116840EA26F21C420097AB2F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,8 @@
 		116840D426F2145E0097AB2F /* dog_gram */ = {
 			isa = PBXGroup;
 			children = (
-				116840D526F2145E0097AB2F /* dog_gramApp.swift */,
-				116840D726F2145E0097AB2F /* ContentView.swift */,
+				116840E926F21C2A0097AB2F /* Extras */,
+				116840E626F21A730097AB2F /* Views */,
 				116840D926F2145F0097AB2F /* Assets.xcassets */,
 				116840DE26F2145F0097AB2F /* Info.plist */,
 				116840DB26F2145F0097AB2F /* Preview Content */,
@@ -70,6 +72,39 @@
 				116840DC26F2145F0097AB2F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		116840E626F21A730097AB2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				116840E826F21A840097AB2F /* Screens */,
+				116840E726F21A7A0097AB2F /* SubViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		116840E726F21A7A0097AB2F /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		116840E826F21A840097AB2F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				116840D526F2145E0097AB2F /* dog_gramApp.swift */,
+				116840D726F2145E0097AB2F /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		116840E926F21C2A0097AB2F /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				116840EA26F21C420097AB2F /* Extensions.swift */,
+			);
+			path = Extras;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				116840D826F2145E0097AB2F /* ContentView.swift in Sources */,
+				116840EB26F21C420097AB2F /* Extensions.swift in Sources */,
 				116840D626F2145E0097AB2F /* dog_gramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
