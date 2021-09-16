@@ -6,12 +6,20 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct UploadView: View {
+  @State var showImagePicker: Bool = false
+  @State var imageSelected: UIImage = UIImage(named: "logo")!
+  @State var sourcetype: UIImagePickerController.SourceType = .camera
+  
   var body: some View {
     ZStack {
       VStack {
-        Button(action: {}, label: {
+        Button(action: {
+          sourcetype = UIImagePickerController.SourceType.camera
+          showImagePicker.toggle()
+        }, label: {
           Text("Take photo".uppercased())
             .font(.largeTitle)
             .fontWeight(.bold)
@@ -20,7 +28,10 @@ struct UploadView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
         .background(Color.app.purple)
         
-        Button(action: {}, label: {
+        Button(action: {
+          sourcetype = UIImagePickerController.SourceType.photoLibrary
+          showImagePicker.toggle()
+        }, label: {
           Text("Import photo".uppercased())
             .font(.largeTitle)
             .fontWeight(.bold)
@@ -29,6 +40,9 @@ struct UploadView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
         .background(Color.app.yellow)
       }
+      .sheet(isPresented: $showImagePicker, content: {
+        ImagePicker(imageSelected: $imageSelected, sourceType: $sourcetype)
+      })
       
       Image("logo.transparent")
         .resizable()
