@@ -11,6 +11,7 @@ import SwiftUI
 class PostArrayObject: ObservableObject {
   @Published var dataArray: Array<PostModel> = Array<PostModel>()
   
+  /// Initializer creates a mock .dataArray containing 4 development posts.
   init() {
     // Fetch posts from database
     // Fake posts x4
@@ -23,5 +24,10 @@ class PostArrayObject: ObservableObject {
     self.dataArray.append(post2)
     self.dataArray.append(post3)
     self.dataArray.append(post4)
+  }
+  
+  /// Used for single post selection.
+  init(post:PostModel) {
+    self.dataArray.append(post)
   }
 }

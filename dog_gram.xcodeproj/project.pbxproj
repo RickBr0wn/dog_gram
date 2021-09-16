@@ -22,6 +22,7 @@
 		1189942C26F35E330013F7D6 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189942B26F35E330013F7D6 /* CommentModel.swift */; };
 		1189942E26F36B2D0013F7D6 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189942D26F36B2D0013F7D6 /* BrowseView.swift */; };
 		1189943026F36C700013F7D6 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189942F26F36C700013F7D6 /* CarouselView.swift */; };
+		1189943226F3757F0013F7D6 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189943126F3757F0013F7D6 /* ImageGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		1189942B26F35E330013F7D6 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 		1189942D26F36B2D0013F7D6 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		1189942F26F36C700013F7D6 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		1189943126F3757F0013F7D6 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				116840EE26F21F170097AB2F /* PostView.swift */,
 				116840F726F265EC0097AB2F /* MessageView.swift */,
 				1189942F26F36C700013F7D6 /* CarouselView.swift */,
+				1189943126F3757F0013F7D6 /* ImageGridView.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				116840F826F265EC0097AB2F /* MessageView.swift in Sources */,
 				116840EB26F21C420097AB2F /* Extensions.swift in Sources */,
 				116840F426F22B6C0097AB2F /* PostArrayObject.swift in Sources */,
+				1189943226F3757F0013F7D6 /* ImageGridView.swift in Sources */,
 				116840EF26F21F170097AB2F /* PostView.swift in Sources */,
 				1189942E26F36B2D0013F7D6 /* BrowseView.swift in Sources */,
 				1189943026F36C700013F7D6 /* CarouselView.swift in Sources */,
