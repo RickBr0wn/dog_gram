@@ -11,6 +11,21 @@
 		116840D826F2145E0097AB2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840D726F2145E0097AB2F /* ContentView.swift */; };
 		116840DA26F2145F0097AB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116840D926F2145F0097AB2F /* Assets.xcassets */; };
 		116840DD26F2145F0097AB2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116840DC26F2145F0097AB2F /* Preview Assets.xcassets */; };
+		116840E526F218CF0097AB2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116840E426F218CF0097AB2F /* LaunchScreen.storyboard */; };
+		116840EB26F21C420097AB2F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840EA26F21C420097AB2F /* Extensions.swift */; };
+		116840ED26F21E7D0097AB2F /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840EC26F21E7D0097AB2F /* FeedView.swift */; };
+		116840EF26F21F170097AB2F /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840EE26F21F170097AB2F /* PostView.swift */; };
+		116840F226F2239A0097AB2F /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840F126F2239A0097AB2F /* PostModel.swift */; };
+		116840F426F22B6C0097AB2F /* PostArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840F326F22B6C0097AB2F /* PostArrayObject.swift */; };
+		116840F626F263820097AB2F /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840F526F263820097AB2F /* CommentsView.swift */; };
+		116840F826F265EC0097AB2F /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840F726F265EC0097AB2F /* MessageView.swift */; };
+		1189942C26F35E330013F7D6 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189942B26F35E330013F7D6 /* CommentModel.swift */; };
+		1189942E26F36B2D0013F7D6 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189942D26F36B2D0013F7D6 /* BrowseView.swift */; };
+		1189943026F36C700013F7D6 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189942F26F36C700013F7D6 /* CarouselView.swift */; };
+		1189943226F3757F0013F7D6 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189943126F3757F0013F7D6 /* ImageGridView.swift */; };
+		1189943426F37E110013F7D6 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189943326F37E110013F7D6 /* UploadView.swift */; };
+		1189943626F383D40013F7D6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189943526F383D40013F7D6 /* ImagePicker.swift */; };
+		11D1FD1226F38CA700F59457 /* PostImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1FD1126F38CA700F59457 /* PostImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +35,21 @@
 		116840D926F2145F0097AB2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		116840DC26F2145F0097AB2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		116840DE26F2145F0097AB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		116840E426F218CF0097AB2F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		116840EA26F21C420097AB2F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		116840EC26F21E7D0097AB2F /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		116840EE26F21F170097AB2F /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		116840F126F2239A0097AB2F /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		116840F326F22B6C0097AB2F /* PostArrayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostArrayObject.swift; sourceTree = "<group>"; };
+		116840F526F263820097AB2F /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
+		116840F726F265EC0097AB2F /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		1189942B26F35E330013F7D6 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		1189942D26F36B2D0013F7D6 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		1189942F26F36C700013F7D6 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		1189943126F3757F0013F7D6 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
+		1189943326F37E110013F7D6 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		1189943526F383D40013F7D6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		11D1FD1126F38CA700F59457 /* PostImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +82,13 @@
 		116840D426F2145E0097AB2F /* dog_gram */ = {
 			isa = PBXGroup;
 			children = (
-				116840D526F2145E0097AB2F /* dog_gramApp.swift */,
-				116840D726F2145E0097AB2F /* ContentView.swift */,
+				116840F026F2238F0097AB2F /* Models */,
+				116840E926F21C2A0097AB2F /* Extras */,
+				116840E626F21A730097AB2F /* Views */,
 				116840D926F2145F0097AB2F /* Assets.xcassets */,
 				116840DE26F2145F0097AB2F /* Info.plist */,
 				116840DB26F2145F0097AB2F /* Preview Content */,
+				116840E426F218CF0097AB2F /* LaunchScreen.storyboard */,
 			);
 			path = dog_gram;
 			sourceTree = "<group>";
@@ -67,6 +99,59 @@
 				116840DC26F2145F0097AB2F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		116840E626F21A730097AB2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				116840E826F21A840097AB2F /* Screens */,
+				116840E726F21A7A0097AB2F /* SubViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		116840E726F21A7A0097AB2F /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				116840EE26F21F170097AB2F /* PostView.swift */,
+				116840F726F265EC0097AB2F /* MessageView.swift */,
+				1189942F26F36C700013F7D6 /* CarouselView.swift */,
+				1189943126F3757F0013F7D6 /* ImageGridView.swift */,
+				1189943526F383D40013F7D6 /* ImagePicker.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		116840E826F21A840097AB2F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				11D1FD1126F38CA700F59457 /* PostImageView.swift */,
+				116840D526F2145E0097AB2F /* dog_gramApp.swift */,
+				116840EC26F21E7D0097AB2F /* FeedView.swift */,
+				116840D726F2145E0097AB2F /* ContentView.swift */,
+				1189943326F37E110013F7D6 /* UploadView.swift */,
+				116840F526F263820097AB2F /* CommentsView.swift */,
+				1189942D26F36B2D0013F7D6 /* BrowseView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		116840E926F21C2A0097AB2F /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				116840EA26F21C420097AB2F /* Extensions.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		116840F026F2238F0097AB2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				116840F126F2239A0097AB2F /* PostModel.swift */,
+				116840F326F22B6C0097AB2F /* PostArrayObject.swift */,
+				1189942B26F35E330013F7D6 /* CommentModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116840E526F218CF0097AB2F /* LaunchScreen.storyboard in Resources */,
 				116840DD26F2145F0097AB2F /* Preview Assets.xcassets in Resources */,
 				116840DA26F2145F0097AB2F /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +224,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116840ED26F21E7D0097AB2F /* FeedView.swift in Sources */,
+				116840F226F2239A0097AB2F /* PostModel.swift in Sources */,
+				11D1FD1226F38CA700F59457 /* PostImageView.swift in Sources */,
 				116840D826F2145E0097AB2F /* ContentView.swift in Sources */,
+				116840F826F265EC0097AB2F /* MessageView.swift in Sources */,
+				116840EB26F21C420097AB2F /* Extensions.swift in Sources */,
+				116840F426F22B6C0097AB2F /* PostArrayObject.swift in Sources */,
+				1189943226F3757F0013F7D6 /* ImageGridView.swift in Sources */,
+				116840EF26F21F170097AB2F /* PostView.swift in Sources */,
+				1189942E26F36B2D0013F7D6 /* BrowseView.swift in Sources */,
+				1189943026F36C700013F7D6 /* CarouselView.swift in Sources */,
+				1189942C26F35E330013F7D6 /* CommentModel.swift in Sources */,
+				1189943426F37E110013F7D6 /* UploadView.swift in Sources */,
+				1189943626F383D40013F7D6 /* ImagePicker.swift in Sources */,
+				116840F626F263820097AB2F /* CommentsView.swift in Sources */,
 				116840D626F2145E0097AB2F /* dog_gramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +380,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.rickbrown.dog-gram";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +402,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.rickbrown.dog-gram";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
