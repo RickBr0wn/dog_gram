@@ -9,12 +9,15 @@ import SwiftUI
 
 struct CommentsView: View {
   @State private var submissionText: String = ""
+  @State var commentArray: Array<CommentModel> = Array<CommentModel>()
   
   var body: some View {
     VStack {
       ScrollView {
         LazyVStack {
-          Text("PLACEHOLDER")
+          ForEach(commentArray, id: \.self) { comment in
+            MessageView(comment: comment)
+          }
         }
       }
       
@@ -23,7 +26,6 @@ struct CommentsView: View {
           .resizable()
           .scaledToFill()
           .frame(width: 40, height: 40, alignment: .center)
-          .padding(.leading, 6)
           .cornerRadius(20)
         
         TextField("Add a comment here", text: $submissionText)
@@ -33,12 +35,26 @@ struct CommentsView: View {
             .font(.title2)
         })
         .accentColor(Color.app.purple)
-        .padding(.trailing, 6)
       }
       .padding(.all, 6)
     }
     .navigationBarTitle("Comments")
     .navigationBarTitleDisplayMode(.inline)
+    .onAppear(perform: getComments)
+  }
+  
+  // MARK: Functions
+  
+  func getComments() {
+    let comment1 = CommentModel(commentID: "1", userId: "1", username: "1", content: "1", dateCreated: Date())
+    let comment2 = CommentModel(commentID: "2", userId: "2", username: "2", content: "2", dateCreated: Date())
+    let comment3 = CommentModel(commentID: "3", userId: "3", username: "3", content: "3", dateCreated: Date())
+    let comment4 = CommentModel(commentID: "4", userId: "4", username: "4", content: "4", dateCreated: Date())
+    
+    commentArray.append(comment1)
+    commentArray.append(comment2)
+    commentArray.append(comment3)
+    commentArray.append(comment4)
   }
 }
 

@@ -41,7 +41,12 @@ struct PostView: View {
       // MARK: Footer
       HStack(alignment: .center, spacing: 20) {
         Image(systemName: "heart")
-        Image(systemName: "bubble.middle.bottom")
+        
+        NavigationLink(
+          destination: CommentsView(),
+          label: { Image(systemName: "bubble.middle.bottom").foregroundColor(.primary) }
+        )
+        
         Image(systemName: "paperplane")
         Spacer()
       }

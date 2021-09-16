@@ -12,10 +12,10 @@ struct ContentView: View {
     TabView {
       NavigationView {
         FeedView(posts: PostArrayObject())
-          .tabItem {
-            Image(systemName: "book.fill")
-            Text("Feed")
-        }
+      }
+      .tabItem {
+        Image(systemName: "book.fill")
+        Text("Feed")
       }
       
       Text("Screen #2")
@@ -39,6 +39,7 @@ struct ContentView: View {
     .accentColor(Color.app.purple)
   }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {

@@ -18,6 +18,8 @@
 		116840F226F2239A0097AB2F /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840F126F2239A0097AB2F /* PostModel.swift */; };
 		116840F426F22B6C0097AB2F /* PostArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840F326F22B6C0097AB2F /* PostArrayObject.swift */; };
 		116840F626F263820097AB2F /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840F526F263820097AB2F /* CommentsView.swift */; };
+		116840F826F265EC0097AB2F /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840F726F265EC0097AB2F /* MessageView.swift */; };
+		1189942C26F35E330013F7D6 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189942B26F35E330013F7D6 /* CommentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		116840F126F2239A0097AB2F /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		116840F326F22B6C0097AB2F /* PostArrayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostArrayObject.swift; sourceTree = "<group>"; };
 		116840F526F263820097AB2F /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
+		116840F726F265EC0097AB2F /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		1189942B26F35E330013F7D6 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				116840EE26F21F170097AB2F /* PostView.swift */,
+				116840F726F265EC0097AB2F /* MessageView.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			children = (
 				116840F126F2239A0097AB2F /* PostModel.swift */,
 				116840F326F22B6C0097AB2F /* PostArrayObject.swift */,
+				1189942B26F35E330013F7D6 /* CommentModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -203,9 +209,11 @@
 				116840ED26F21E7D0097AB2F /* FeedView.swift in Sources */,
 				116840F226F2239A0097AB2F /* PostModel.swift in Sources */,
 				116840D826F2145E0097AB2F /* ContentView.swift in Sources */,
+				116840F826F265EC0097AB2F /* MessageView.swift in Sources */,
 				116840EB26F21C420097AB2F /* Extensions.swift in Sources */,
 				116840F426F22B6C0097AB2F /* PostArrayObject.swift in Sources */,
 				116840EF26F21F170097AB2F /* PostView.swift in Sources */,
+				1189942C26F35E330013F7D6 /* CommentModel.swift in Sources */,
 				116840F626F263820097AB2F /* CommentsView.swift in Sources */,
 				116840D626F2145E0097AB2F /* dog_gramApp.swift in Sources */,
 			);
