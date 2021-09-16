@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ProfileHeaderView: View {
+  @Binding var profileDisplayName: String
+  
   var body: some View {
     VStack(alignment: .center, spacing: 10) {
       Image("dog1")
@@ -16,7 +18,7 @@ struct ProfileHeaderView: View {
         .frame(width: 120, height: 120, alignment: .center)
         .cornerRadius(60.0)
       
-      Text("Username")
+      Text(profileDisplayName)
         .font(.largeTitle)
         .fontWeight(.bold)
       
@@ -69,7 +71,7 @@ struct ProfileHeaderView: View {
 
 struct ProfileHeaderView_Previews: PreviewProvider {
   static var previews: some View {
-    ProfileHeaderView()
+    ProfileHeaderView(profileDisplayName: dev.$profileDisplayName)
       .previewLayout(.sizeThatFits)
       .padding()
   }

@@ -42,4 +42,8 @@ class DeveloperPreview {
   let comment = CommentModel(commentID: "commentID1234", userId: "userID1234", username: "username1234", content: "Some comment content", dateCreated: Date())
   
   let title = "Development Title"
+  
+  @State var profileDisplayName = "Joe Green"
+  
+  let userID = "some_random_user_id"
 }
