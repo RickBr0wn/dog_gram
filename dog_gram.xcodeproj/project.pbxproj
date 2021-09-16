@@ -23,6 +23,7 @@
 		1189942E26F36B2D0013F7D6 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189942D26F36B2D0013F7D6 /* BrowseView.swift */; };
 		1189943026F36C700013F7D6 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189942F26F36C700013F7D6 /* CarouselView.swift */; };
 		1189943226F3757F0013F7D6 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189943126F3757F0013F7D6 /* ImageGridView.swift */; };
+		1189943426F37E110013F7D6 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189943326F37E110013F7D6 /* UploadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		1189942D26F36B2D0013F7D6 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		1189942F26F36C700013F7D6 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		1189943126F3757F0013F7D6 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
+		1189943326F37E110013F7D6 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				116840D526F2145E0097AB2F /* dog_gramApp.swift */,
 				116840EC26F21E7D0097AB2F /* FeedView.swift */,
 				116840D726F2145E0097AB2F /* ContentView.swift */,
+				1189943326F37E110013F7D6 /* UploadView.swift */,
 				116840F526F263820097AB2F /* CommentsView.swift */,
 				1189942D26F36B2D0013F7D6 /* BrowseView.swift */,
 			);
@@ -226,6 +229,7 @@
 				1189942E26F36B2D0013F7D6 /* BrowseView.swift in Sources */,
 				1189943026F36C700013F7D6 /* CarouselView.swift in Sources */,
 				1189942C26F35E330013F7D6 /* CommentModel.swift in Sources */,
+				1189943426F37E110013F7D6 /* UploadView.swift in Sources */,
 				116840F626F263820097AB2F /* CommentsView.swift in Sources */,
 				116840D626F2145E0097AB2F /* dog_gramApp.swift in Sources */,
 			);
