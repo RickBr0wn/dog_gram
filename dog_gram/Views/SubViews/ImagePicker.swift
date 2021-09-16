@@ -13,11 +13,11 @@ struct ImagePicker: UIViewControllerRepresentable {
   @Binding var sourceType: UIImagePickerController.SourceType
   
   func makeUIViewController(context: UIViewControllerRepresentableContext<ImagePicker>) -> some UIImagePickerController {
-    let picker = UIImagePickerController()
-    picker.delegate = context.coordinator
-    picker.sourceType = sourceType
-    picker.allowsEditing = true
-    return picker
+    let _imagePickerController = UIImagePickerController()
+    _imagePickerController.delegate = context.coordinator
+    _imagePickerController.sourceType = sourceType
+    _imagePickerController.allowsEditing = true
+    return _imagePickerController
   }
   
   func updateUIViewController(_ uiViewController: UIViewControllerType, context: UIViewControllerRepresentableContext<ImagePicker>) {}
