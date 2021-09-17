@@ -24,7 +24,7 @@ struct SettingsView: View {
               .frame(width: 80, height: 80, alignment: .center)
               .cornerRadius(12.0)
             
-            Text("DogGram is the number one app for posting pictures of your dog and sharing them across the world.\nWe are a dog loving community, and we are really happy that you have joined us and we cannot wait to see your dog pictures!! 🐾")
+            Text("DogGram is the number one app for posting pictures of your dog and sharing them across the world.\nWe are a dog loving community, and we are really happy that you have joined us. We cannot wait to see all of your dog pictures!! 🐾")
               .font(.footnote)
           }
         }
@@ -50,9 +50,7 @@ struct SettingsView: View {
         // MARK: Sign Off
         
         GroupBox(label: SettingsLabelView(labelText: "Developer", labelImage: "person.crop.circle")) {
-          Text("All rights reserved.\nRick Brown © 2021")
-            .foregroundColor(.gray)
-            .font(.footnote)
+          SettingsRowView(leftIcon: "person.crop.circle", text: "Rick Brown", color: Color.app.purple)
         }
         .frame(maxWidth: .infinity)
         .multilineTextAlignment(.center)
