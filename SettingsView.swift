@@ -33,8 +33,14 @@ struct SettingsView: View {
         // MARK: Profile
         
         GroupBox(label: SettingsLabelView(labelText: "Profile", labelImage: "person.fill")) {
-          SettingsRowView(leftIcon: "pencil", text: "Display Name", color: Color.app.purple)
-          SettingsRowView(leftIcon: "text.quote", text: "Bio", color: Color.app.purple)
+          NavigationLink(
+            destination: SettingsEditTextView(submissionText: "Current Display Name", title: "Display Name", description: "You can edit your display name here. Its this username that will be seen by other users on your profile and on all of your posts.", placeholder: "Enter a new display name."),
+            label: { SettingsRowView(leftIcon: "pencil", text: "Display Name", color: Color.app.purple) }
+          )
+          NavigationLink(
+            destination: SettingsEditTextView(submissionText: "Current bio", title: "Profile Bio", description: "Your bio is a great way to let other users know a little about you. It will be shown on your profile only.", placeholder: "Enter a new bio"),
+            label: { SettingsRowView(leftIcon: "text.quote", text: "Bio", color: Color.app.purple) }
+          )
           SettingsRowView(leftIcon: "photo", text: "Profile Picture", color: Color.app.purple)
           SettingsRowView(leftIcon: "figure.walk", text: "Sign Out", color: Color.app.purple)
         }
