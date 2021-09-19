@@ -41,16 +41,26 @@ struct SettingsView: View {
             destination: SettingsEditTextView(submissionText: "Current bio", title: "Profile Bio", description: "Your bio is a great way to let other users know a little about you. It will be shown on your profile only.", placeholder: "Enter a new bio"),
             label: { SettingsRowView(leftIcon: "text.quote", text: "Bio", color: Color.app.purple) }
           )
-          SettingsRowView(leftIcon: "photo", text: "Profile Picture", color: Color.app.purple)
+          NavigationLink(
+            destination: SettingsEditImageView(title: "Profile Picture", description: "Your profile picture will be shown in your profile and on your posts. Why don't you use a photograph of yourself or your dog!", selectedImage: UIImage(named: "dog1")!),
+            label: { SettingsRowView(leftIcon: "photo", text: "Profile Picture", color: Color.app.purple) }
+          )
+          
           SettingsRowView(leftIcon: "figure.walk", text: "Sign Out", color: Color.app.purple)
         }
         
         // MARK: Application
         
         GroupBox(label: SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")) {
-          SettingsRowView(leftIcon: "folder.fill", text: "Privacy Policy", color: Color.app.yellow)
-          SettingsRowView(leftIcon: "folder.fill", text: "Terms and Conditions", color: Color.app.yellow)
-          SettingsRowView(leftIcon: "globe", text: "Developer Website", color: Color.app.yellow)
+          Button(action: { openCustomURL(urlString: "https://google.co.uk") }, label: {
+            SettingsRowView(leftIcon: "folder.fill", text: "Privacy Policy", color: Color.app.yellow)
+          })
+          Button(action: { openCustomURL(urlString: "https://bbc.co.uk") }, label: {
+            SettingsRowView(leftIcon: "folder.fill", text: "Terms and Conditions", color: Color.app.yellow)
+          })
+          Button(action: { openCustomURL(urlString: "https://rickbrown.co.uk") }, label: {
+            SettingsRowView(leftIcon: "globe", text: "Developer Website", color: Color.app.yellow)
+          })
         }
         
         // MARK: Sign Off
@@ -73,6 +83,16 @@ struct SettingsView: View {
       }))
     }
     .padding()
+  }
+  
+  // MARK: Functions
+  
+  func openCustomURL(urlString: String) {
+    guard let url = URL(string: urlString) else { return }
+    
+    if UIApplication.shared.canOpenURL(url) {
+      UIApplication.shared.open(url)
+    }
   }
 }
 

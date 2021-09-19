@@ -35,15 +35,19 @@ class DeveloperPreview {
   
   private init() {}
   
-  let post = PostModel(postID: "postId12345", userID: "userID1234", username: "username", caption: "a random caption", dateCreated: Date(), likeCount: 42, isLikedByUser: true)
+  @State var profileDisplayName = "development.name.with.binding"
+  
+  let post = PostModel(postID: "post.Id", userID: "user.ID", username: "username.post", caption: "development.caption", dateCreated: Date(), likeCount: 42, isLikedByUser: true)
   
   let posts = PostArrayObject()
   
-  let comment = CommentModel(commentID: "commentID1234", userId: "userID1234", username: "username1234", content: "Some comment content", dateCreated: Date())
+  let comment = CommentModel(commentID: "comment.Id", userId: "user.Id", username: "username.comment", content: "development.comment", dateCreated: Date())
   
-  let title = "Development Title"
+  let title = "development.title"
   
-  @State var profileDisplayName = "Joe Green"
+  let userID = "user.id"
   
-  let userID = "some_random_user_id"
+  let description = "development.description"
+  
+  let placeholder = "development.placeholder"
 }

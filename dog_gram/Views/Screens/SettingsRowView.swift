@@ -39,7 +39,7 @@ struct SettingsRowView: View {
 
 struct SettingsRowView_Previews: PreviewProvider {
   static var previews: some View {
-    SettingsRowView(leftIcon: "heart.fill", text: "Development title", color: Color.green)
+    SettingsRowView(leftIcon: "heart.fill", text: dev.title, color: Color.green)
       .previewLayout(.sizeThatFits)
       .padding()
   }

@@ -51,7 +51,7 @@ struct SettingsEditTextView: View {
 struct SettingsEditTextView_Previews: PreviewProvider {
   static var previews: some View {
     NavigationView {
-      SettingsEditTextView(title: "Development Title", description: "A random description.", placeholder: "dunno")
+      SettingsEditTextView(title: dev.title, description: dev.description, placeholder: dev.placeholder)
     }
   }
 }

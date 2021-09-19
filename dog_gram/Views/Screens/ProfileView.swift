@@ -12,6 +12,7 @@ struct ProfileView: View {
   @State var displayName: String
   var profileUserID: String
   var isMyProfile: Bool
+  @State var isSheetShown: Bool = false
   
   var body: some View {
     ScrollView(.vertical, showsIndicators: false, content: {
@@ -23,14 +24,13 @@ struct ProfileView: View {
     })
     .navigationBarTitle("Profile")
     .navigationBarTitleDisplayMode(.inline)
-    .navigationBarItems(trailing: Button(action: {
-      
-    }, label: {
+    .navigationBarItems(trailing: Button(action: { isSheetShown.toggle() }, label: {
       Image(systemName: "line.horizontal.3")
     })
     .accentColor(.app.purple)
     .opacity(isMyProfile ? 1.0 : 0)
     )
+    .sheet(isPresented: $isSheetShown) { SettingsView() }
   }
 }
 
