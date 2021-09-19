@@ -29,6 +29,7 @@
 		1189943426F37E110013F7D6 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189943326F37E110013F7D6 /* UploadView.swift */; };
 		1189943626F383D40013F7D6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189943526F383D40013F7D6 /* ImagePicker.swift */; };
 		119A4E2926F7D24000010BF9 /* SettingsEditImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A4E2826F7D24000010BF9 /* SettingsEditImageView.swift */; };
+		119A4E2B26F7D96D00010BF9 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A4E2A26F7D96D00010BF9 /* SignUpView.swift */; };
 		11BA7FEE26F486260073DE73 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA7FED26F486260073DE73 /* SettingsView.swift */; };
 		11BA7FF026F488520073DE73 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA7FEF26F488520073DE73 /* SettingsLabelView.swift */; };
 		11BA7FF226F48C3D0073DE73 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA7FF126F48C3D0073DE73 /* SettingsRowView.swift */; };
@@ -60,6 +61,7 @@
 		1189943326F37E110013F7D6 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 		1189943526F383D40013F7D6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		119A4E2826F7D24000010BF9 /* SettingsEditImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsEditImageView.swift; sourceTree = "<group>"; };
+		119A4E2A26F7D96D00010BF9 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		11BA7FED26F486260073DE73 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = SOURCE_ROOT; };
 		11BA7FEF26F488520073DE73 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsLabelView.swift; path = dog_gram/Views/Screens/SettingsLabelView.swift; sourceTree = SOURCE_ROOT; };
 		11BA7FF126F48C3D0073DE73 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsRowView.swift; path = dog_gram/Views/Screens/SettingsRowView.swift; sourceTree = SOURCE_ROOT; };
@@ -153,6 +155,7 @@
 				113472CB26F3C8DC002DCA0F /* ProfileView.swift */,
 				115B26AA26F4BD3100F956A1 /* SettingsEditTextView.swift */,
 				119A4E2826F7D24000010BF9 /* SettingsEditImageView.swift */,
+				119A4E2A26F7D96D00010BF9 /* SignUpView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				116840F226F2239A0097AB2F /* PostModel.swift in Sources */,
 				11BA7FF026F488520073DE73 /* SettingsLabelView.swift in Sources */,
 				11D1FD1226F38CA700F59457 /* PostImageView.swift in Sources */,
+				119A4E2B26F7D96D00010BF9 /* SignUpView.swift in Sources */,
 				116840D826F2145E0097AB2F /* ContentView.swift in Sources */,
 				116840F826F265EC0097AB2F /* MessageView.swift in Sources */,
 				116840EB26F21C420097AB2F /* Extensions.swift in Sources */,
