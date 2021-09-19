@@ -30,6 +30,8 @@
 		1189943626F383D40013F7D6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189943526F383D40013F7D6 /* ImagePicker.swift */; };
 		119A4E2926F7D24000010BF9 /* SettingsEditImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A4E2826F7D24000010BF9 /* SettingsEditImageView.swift */; };
 		119A4E2B26F7D96D00010BF9 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A4E2A26F7D96D00010BF9 /* SignUpView.swift */; };
+		119A4E2D26F7DF2D00010BF9 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A4E2C26F7DF2D00010BF9 /* OnboardingView.swift */; };
+		119A4E2F26F7E08300010BF9 /* SignInWithAppleButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A4E2E26F7E08300010BF9 /* SignInWithAppleButtonCustom.swift */; };
 		11BA7FEE26F486260073DE73 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA7FED26F486260073DE73 /* SettingsView.swift */; };
 		11BA7FF026F488520073DE73 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA7FEF26F488520073DE73 /* SettingsLabelView.swift */; };
 		11BA7FF226F48C3D0073DE73 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA7FF126F48C3D0073DE73 /* SettingsRowView.swift */; };
@@ -62,6 +64,8 @@
 		1189943526F383D40013F7D6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		119A4E2826F7D24000010BF9 /* SettingsEditImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsEditImageView.swift; sourceTree = "<group>"; };
 		119A4E2A26F7D96D00010BF9 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		119A4E2C26F7DF2D00010BF9 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		119A4E2E26F7E08300010BF9 /* SignInWithAppleButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButtonCustom.swift; sourceTree = "<group>"; };
 		11BA7FED26F486260073DE73 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = SOURCE_ROOT; };
 		11BA7FEF26F488520073DE73 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsLabelView.swift; path = dog_gram/Views/Screens/SettingsLabelView.swift; sourceTree = SOURCE_ROOT; };
 		11BA7FF126F48C3D0073DE73 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsRowView.swift; path = dog_gram/Views/Screens/SettingsRowView.swift; sourceTree = SOURCE_ROOT; };
@@ -137,6 +141,7 @@
 				1189942F26F36C700013F7D6 /* CarouselView.swift */,
 				1189943126F3757F0013F7D6 /* ImageGridView.swift */,
 				1189943526F383D40013F7D6 /* ImagePicker.swift */,
+				119A4E2E26F7E08300010BF9 /* SignInWithAppleButtonCustom.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 				115B26AA26F4BD3100F956A1 /* SettingsEditTextView.swift */,
 				119A4E2826F7D24000010BF9 /* SettingsEditImageView.swift */,
 				119A4E2A26F7D96D00010BF9 /* SignUpView.swift */,
+				119A4E2C26F7DF2D00010BF9 /* OnboardingView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -249,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				116840ED26F21E7D0097AB2F /* FeedView.swift in Sources */,
+				119A4E2F26F7E08300010BF9 /* SignInWithAppleButtonCustom.swift in Sources */,
 				116840F226F2239A0097AB2F /* PostModel.swift in Sources */,
 				11BA7FF026F488520073DE73 /* SettingsLabelView.swift in Sources */,
 				11D1FD1226F38CA700F59457 /* PostImageView.swift in Sources */,
@@ -266,6 +273,7 @@
 				1189942C26F35E330013F7D6 /* CommentModel.swift in Sources */,
 				113472CE26F3CAC3002DCA0F /* ProfileHeaderView.swift in Sources */,
 				1189943426F37E110013F7D6 /* UploadView.swift in Sources */,
+				119A4E2D26F7DF2D00010BF9 /* OnboardingView.swift in Sources */,
 				1189943626F383D40013F7D6 /* ImagePicker.swift in Sources */,
 				116840F626F263820097AB2F /* CommentsView.swift in Sources */,
 				116840D626F2145E0097AB2F /* dog_gramApp.swift in Sources */,
