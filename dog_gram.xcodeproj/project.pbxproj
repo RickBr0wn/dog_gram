@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		110A897E26F874DA003B4FB7 /* AnotherOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110A897D26F874DA003B4FB7 /* AnotherOnboardingView.swift */; };
 		113472CC26F3C8DC002DCA0F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113472CB26F3C8DC002DCA0F /* ProfileView.swift */; };
 		113472CE26F3CAC3002DCA0F /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113472CD26F3CAC3002DCA0F /* ProfileHeaderView.swift */; };
+		114D80F426F8A91100B5C142 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 114D80F326F8A91100B5C142 /* GoogleService-Info.plist */; };
 		115B26AB26F4BD3100F956A1 /* SettingsEditTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B26AA26F4BD3100F956A1 /* SettingsEditTextView.swift */; };
 		116840D626F2145E0097AB2F /* dog_gramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840D526F2145E0097AB2F /* dog_gramApp.swift */; };
 		116840D826F2145E0097AB2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116840D726F2145E0097AB2F /* ContentView.swift */; };
@@ -38,12 +39,14 @@
 		11BA7FF026F488520073DE73 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA7FEF26F488520073DE73 /* SettingsLabelView.swift */; };
 		11BA7FF226F48C3D0073DE73 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA7FF126F48C3D0073DE73 /* SettingsRowView.swift */; };
 		11D1FD1226F38CA700F59457 /* PostImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1FD1126F38CA700F59457 /* PostImageView.swift */; };
+		79114FE61F44FE7872246190 /* Pods_dog_gram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE49E2BC4196FDD237D9A3A /* Pods_dog_gram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		110A897D26F874DA003B4FB7 /* AnotherOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherOnboardingView.swift; sourceTree = "<group>"; };
 		113472CB26F3C8DC002DCA0F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		113472CD26F3CAC3002DCA0F /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileHeaderView.swift; path = dog_gram/Views/Screens/ProfileHeaderView.swift; sourceTree = SOURCE_ROOT; };
+		114D80F326F8A91100B5C142 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		115B26AA26F4BD3100F956A1 /* SettingsEditTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsEditTextView.swift; path = dog_gram/Views/Screens/SettingsEditTextView.swift; sourceTree = SOURCE_ROOT; };
 		116840D226F2145E0097AB2F /* dog_gram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dog_gram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116840D526F2145E0097AB2F /* dog_gramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dog_gramApp.swift; sourceTree = "<group>"; };
@@ -74,6 +77,9 @@
 		11BA7FEF26F488520073DE73 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsLabelView.swift; path = dog_gram/Views/Screens/SettingsLabelView.swift; sourceTree = SOURCE_ROOT; };
 		11BA7FF126F48C3D0073DE73 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsRowView.swift; path = dog_gram/Views/Screens/SettingsRowView.swift; sourceTree = SOURCE_ROOT; };
 		11D1FD1126F38CA700F59457 /* PostImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageView.swift; sourceTree = SOURCE_ROOT; };
+		9AE49E2BC4196FDD237D9A3A /* Pods_dog_gram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dog_gram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E373922B67E9AAF5D2407B47 /* Pods-dog_gram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dog_gram.debug.xcconfig"; path = "Target Support Files/Pods-dog_gram/Pods-dog_gram.debug.xcconfig"; sourceTree = "<group>"; };
+		E53F7F9EA0F900DEC24A3D98 /* Pods-dog_gram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dog_gram.release.xcconfig"; path = "Target Support Files/Pods-dog_gram/Pods-dog_gram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79114FE61F44FE7872246190 /* Pods_dog_gram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,9 +97,10 @@
 		116840C926F2145E0097AB2F = {
 			isa = PBXGroup;
 			children = (
-				110A897D26F874DA003B4FB7 /* AnotherOnboardingView.swift */,
 				116840D426F2145E0097AB2F /* dog_gram */,
 				116840D326F2145E0097AB2F /* Products */,
+				8D74303809F76011ABFED152 /* Pods */,
+				7CD668EEF5033C54B922D2BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +120,7 @@
 				116840E626F21A730097AB2F /* Views */,
 				116840D926F2145F0097AB2F /* Assets.xcassets */,
 				116840DE26F2145F0097AB2F /* Info.plist */,
+				114D80F326F8A91100B5C142 /* GoogleService-Info.plist */,
 				116840DB26F2145F0097AB2F /* Preview Content */,
 				116840E426F218CF0097AB2F /* LaunchScreen.storyboard */,
 			);
@@ -164,6 +173,7 @@
 				116840F526F263820097AB2F /* CommentsView.swift */,
 				1189942D26F36B2D0013F7D6 /* BrowseView.swift */,
 				113472CB26F3C8DC002DCA0F /* ProfileView.swift */,
+				110A897D26F874DA003B4FB7 /* AnotherOnboardingView.swift */,
 				115B26AA26F4BD3100F956A1 /* SettingsEditTextView.swift */,
 				119A4E2826F7D24000010BF9 /* SettingsEditImageView.swift */,
 				119A4E2A26F7D96D00010BF9 /* SignUpView.swift */,
@@ -190,6 +200,23 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		7CD668EEF5033C54B922D2BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AE49E2BC4196FDD237D9A3A /* Pods_dog_gram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D74303809F76011ABFED152 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E373922B67E9AAF5D2407B47 /* Pods-dog_gram.debug.xcconfig */,
+				E53F7F9EA0F900DEC24A3D98 /* Pods-dog_gram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 116840E126F2145F0097AB2F /* Build configuration list for PBXNativeTarget "dog_gram" */;
 			buildPhases = (
+				C6F8BB3F1BAFBDE2C022983B /* [CP] Check Pods Manifest.lock */,
 				116840CE26F2145E0097AB2F /* Sources */,
 				116840CF26F2145E0097AB2F /* Frameworks */,
 				116840D026F2145E0097AB2F /* Resources */,
+				A266A0E9926D7BA2BC928469 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,10 +279,53 @@
 				116840E526F218CF0097AB2F /* LaunchScreen.storyboard in Resources */,
 				116840DD26F2145F0097AB2F /* Preview Assets.xcassets in Resources */,
 				116840DA26F2145F0097AB2F /* Assets.xcassets in Resources */,
+				114D80F426F8A91100B5C142 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A266A0E9926D7BA2BC928469 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dog_gram/Pods-dog_gram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dog_gram/Pods-dog_gram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dog_gram/Pods-dog_gram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6F8BB3F1BAFBDE2C022983B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dog_gram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		116840CE26F2145E0097AB2F /* Sources */ = {
@@ -412,6 +484,7 @@
 		};
 		116840E226F2145F0097AB2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E373922B67E9AAF5D2407B47 /* Pods-dog_gram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -434,6 +507,7 @@
 		};
 		116840E326F2145F0097AB2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E53F7F9EA0F900DEC24A3D98 /* Pods-dog_gram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
