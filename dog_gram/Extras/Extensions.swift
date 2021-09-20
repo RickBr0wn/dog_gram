@@ -39,7 +39,7 @@ class DeveloperPreview {
   
   @State var animateBoolean: Bool = false
   
-  let post = PostModel(postID: "post.Id", userID: "user.ID", username: "username.post", caption: "development.caption", dateCreated: Date(), likeCount: 42, isLikedByUser: true)
+  let post = PostModel(postID: "post.Id", userID: "user.ID", username: "username.post", caption: "development.caption", dateCreated: Date(), likeCount: 42, isLikedByUser: false)
   
   let posts = PostArrayObject()
   

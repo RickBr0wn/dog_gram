@@ -10,6 +10,7 @@ import SwiftUI
 struct CommentsView: View {
   @State private var submissionText: String = ""
   @State var commentArray: Array<CommentModel> = Array<CommentModel>()
+  @Environment(\.colorScheme) var colorScheme
   
   var body: some View {
     VStack {
@@ -34,10 +35,11 @@ struct CommentsView: View {
           Image(systemName: "paperplane.fill")
             .font(.title2)
         })
-        .accentColor(Color.app.purple)
+        .accentColor(colorScheme == .light ? Color.app.purple : Color.app.yellow)
       }
       .padding(.all, 6)
     }
+    padding()
     .navigationBarTitle("Comments")
     .navigationBarTitleDisplayMode(.inline)
     .onAppear(perform: getComments)
@@ -61,7 +63,12 @@ struct CommentsView: View {
 struct CommentsView_Previews: PreviewProvider {
   static var previews: some View {
     NavigationView {
-      CommentsView()
+      Group {
+        CommentsView()
+          .preferredColorScheme(.dark)
+        
+        CommentsView()
+      }
     }
   }
 }

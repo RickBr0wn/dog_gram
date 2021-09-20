@@ -12,6 +12,7 @@ struct SettingsEditTextView: View {
   @State var title: String
   @State var description: String
   @State var placeholder: String
+  @Environment(\.colorScheme) var colorScheme
   
   var body: some View {
     VStack {
@@ -25,7 +26,7 @@ struct SettingsEditTextView: View {
         .padding()
         .frame(height: 60)
         .frame(maxWidth: .infinity)
-        .background(Color.app.beige)
+        .background(colorScheme == .light ? Color.app.beige : Color.app.purple)
         .cornerRadius(12.0)
         .font(.headline)
         .autocapitalization(.sentences)
@@ -36,10 +37,10 @@ struct SettingsEditTextView: View {
           .fontWeight(.bold)
           .frame(height: 60)
           .frame(maxWidth: .infinity)
-          .background(Color.app.purple)
+          .background(colorScheme == .light ? Color.app.purple : Color.app.yellow)
           .cornerRadius(12.0)
       })
-      .accentColor(Color.app.yellow)
+      .accentColor(colorScheme == .light ? Color.app.yellow : Color.app.purple)
       
       Spacer()
     }
@@ -51,7 +52,12 @@ struct SettingsEditTextView: View {
 struct SettingsEditTextView_Previews: PreviewProvider {
   static var previews: some View {
     NavigationView {
-      SettingsEditTextView(title: dev.title, description: dev.description, placeholder: dev.placeholder)
+      Group {
+        SettingsEditTextView(title: dev.title, description: dev.description, placeholder: dev.placeholder)
+          .preferredColorScheme(.dark)
+        
+        SettingsEditTextView(title: dev.title, description: dev.description, placeholder: dev.placeholder)
+      }
     }
   }
 }
