@@ -29,6 +29,7 @@
 		1189943226F3757F0013F7D6 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189943126F3757F0013F7D6 /* ImageGridView.swift */; };
 		1189943426F37E110013F7D6 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189943326F37E110013F7D6 /* UploadView.swift */; };
 		1189943626F383D40013F7D6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1189943526F383D40013F7D6 /* ImagePicker.swift */; };
+		118E1BD726F87B5C004E7C3B /* LikeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E1BD626F87B5C004E7C3B /* LikeAnimationView.swift */; };
 		119A4E2926F7D24000010BF9 /* SettingsEditImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A4E2826F7D24000010BF9 /* SettingsEditImageView.swift */; };
 		119A4E2B26F7D96D00010BF9 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A4E2A26F7D96D00010BF9 /* SignUpView.swift */; };
 		119A4E2D26F7DF2D00010BF9 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119A4E2C26F7DF2D00010BF9 /* OnboardingView.swift */; };
@@ -64,6 +65,7 @@
 		1189943126F3757F0013F7D6 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 		1189943326F37E110013F7D6 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 		1189943526F383D40013F7D6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		118E1BD626F87B5C004E7C3B /* LikeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeAnimationView.swift; sourceTree = SOURCE_ROOT; };
 		119A4E2826F7D24000010BF9 /* SettingsEditImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsEditImageView.swift; sourceTree = "<group>"; };
 		119A4E2A26F7D96D00010BF9 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		119A4E2C26F7DF2D00010BF9 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		116840E726F21A7A0097AB2F /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
+				118E1BD626F87B5C004E7C3B /* LikeAnimationView.swift */,
 				11BA7FF126F48C3D0073DE73 /* SettingsRowView.swift */,
 				11BA7FEF26F488520073DE73 /* SettingsLabelView.swift */,
 				113472CD26F3CAC3002DCA0F /* ProfileHeaderView.swift */,
@@ -271,6 +274,7 @@
 				1189943226F3757F0013F7D6 /* ImageGridView.swift in Sources */,
 				116840EF26F21F170097AB2F /* PostView.swift in Sources */,
 				113472CC26F3C8DC002DCA0F /* ProfileView.swift in Sources */,
+				118E1BD726F87B5C004E7C3B /* LikeAnimationView.swift in Sources */,
 				1189942E26F36B2D0013F7D6 /* BrowseView.swift in Sources */,
 				1189943026F36C700013F7D6 /* CarouselView.swift in Sources */,
 				119A4E2926F7D24000010BF9 /* SettingsEditImageView.swift in Sources */,

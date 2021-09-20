@@ -9,7 +9,10 @@ import SwiftUI
 
 struct PostView: View {
   @State var post: PostModel
+  @State var postImage: UIImage = UIImage(named: "dog1")!
   var showHeaderAndFooter: Bool
+  @State var animateLike: Bool = false
+  @State var addHeartAnimationToView: Bool
   
   var body: some View {
     VStack(alignment: .center, spacing: 0) {
@@ -41,14 +44,22 @@ struct PostView: View {
       }
       
       // MARK: Image
-      Image("dog1")
-        .resizable()
-        .scaledToFit()
+
+      ZStack {
+        Image(uiImage: postImage)
+          .resizable()
+          .scaledToFit()
+        
+        if addHeartAnimationToView { LikeAnimationView(animate: $animateLike) }
+      }
       
       // MARK: Footer
       if showHeaderAndFooter {
         HStack(alignment: .center, spacing: 20) {
-          Image(systemName: "heart")
+          Button(action: { if post.isLikedByUser { unlikePosts() } else { likePosts() }},
+                 label: { Image(systemName: post.isLikedByUser ? "heart.fill" : "heart") }
+          )
+          .accentColor(post.isLikedByUser ? .red : .primary)
           
           NavigationLink(
             destination: CommentsView(),
@@ -71,11 +82,28 @@ struct PostView: View {
       }
     }
   }
+  
+  // MARK: Functions
+  
+  func likePosts() {
+    let updatedPost = PostModel(postID: post.postID, userID: post.userID, username: post.username, caption: post.caption, dateCreated: post.dateCreated, likeCount: post.likeCount + 1, isLikedByUser: true)
+    self.post = updatedPost
+    
+    animateLike = true
+    
+    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { animateLike = false }
+  }
+  
+  func unlikePosts() {
+    let updatedPost = PostModel(postID: post.postID, userID: post.userID, username: post.username, caption: post.caption, dateCreated: post.dateCreated, likeCount: post.likeCount - 1, isLikedByUser: false)
+    self.post = updatedPost
+  }
 }
 
 struct PostView_Previews: PreviewProvider {
   static var previews: some View {
-    PostView(post: dev.post, showHeaderAndFooter: true)
+    PostView(post: dev.post, showHeaderAndFooter: true, addHeartAnimationToView: true)
       .previewLayout(.sizeThatFits)
   }
 }
+
