@@ -28,6 +28,7 @@ struct SignUpView: View {
       
       Text("Click the button below to create an account and join in the fun!! 🐶")
         .font(.headline)
+        .foregroundColor(Color.app.purple)
         .fontWeight(.medium)
         .multilineTextAlignment(.center)
       
@@ -56,6 +57,11 @@ struct SignUpView: View {
 
 struct SignUpView_Previews: PreviewProvider {
   static var previews: some View {
-    SignUpView()
+    Group {
+      SignUpView()
+        .preferredColorScheme(.dark)
+      
+      SignUpView()
+    }
   }
 }

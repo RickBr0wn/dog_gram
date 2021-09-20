@@ -15,10 +15,10 @@ class PostArrayObject: ObservableObject {
   init() {
     // Fetch posts from database
     // Fake posts x4
-    let post1 = PostModel(postID: "postId12345", userID: "userID1234", username: "username", caption: "a random caption", dateCreated: Date(), likeCount: 42, isLikedByUser: true)
-    let post2 = PostModel(postID: "postId12346", userID: "userID1235", username: "username2", caption: "another random caption", dateCreated: Date(), likeCount: 64, isLikedByUser: true)
+    let post1 = PostModel(postID: "postId12345", userID: "userID1234", username: "username", caption: "a random caption", dateCreated: Date(), likeCount: 42, isLikedByUser: false)
+    let post2 = PostModel(postID: "postId12346", userID: "userID1235", username: "username2", caption: "another random caption", dateCreated: Date(), likeCount: 64, isLikedByUser: false)
     let post3 = PostModel(postID: "postId12347", userID: "userID1236", username: "username3", caption: nil, dateCreated: Date(), likeCount: 127, isLikedByUser: true)
-    let post4 = PostModel(postID: "postId12348", userID: "userID1237", username: "usernam4", caption: "yes, you guessed it! a random caption lolol", dateCreated: Date(), likeCount: 42, isLikedByUser: true)
+    let post4 = PostModel(postID: "postId12348", userID: "userID1237", username: "usernam4", caption: "yes, you guessed it! a random caption lolol", dateCreated: Date(), likeCount: 42, isLikedByUser: false)
     
     self.dataArray.append(post1)
     self.dataArray.append(post2)
