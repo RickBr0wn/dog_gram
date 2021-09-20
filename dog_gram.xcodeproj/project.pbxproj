@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110A897E26F874DA003B4FB7 /* AnotherOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110A897D26F874DA003B4FB7 /* AnotherOnboardingView.swift */; };
 		113472CC26F3C8DC002DCA0F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113472CB26F3C8DC002DCA0F /* ProfileView.swift */; };
 		113472CE26F3CAC3002DCA0F /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113472CD26F3CAC3002DCA0F /* ProfileHeaderView.swift */; };
 		115B26AB26F4BD3100F956A1 /* SettingsEditTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B26AA26F4BD3100F956A1 /* SettingsEditTextView.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		110A897D26F874DA003B4FB7 /* AnotherOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherOnboardingView.swift; sourceTree = "<group>"; };
 		113472CB26F3C8DC002DCA0F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		113472CD26F3CAC3002DCA0F /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileHeaderView.swift; path = dog_gram/Views/Screens/ProfileHeaderView.swift; sourceTree = SOURCE_ROOT; };
 		115B26AA26F4BD3100F956A1 /* SettingsEditTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsEditTextView.swift; path = dog_gram/Views/Screens/SettingsEditTextView.swift; sourceTree = SOURCE_ROOT; };
@@ -86,6 +88,7 @@
 		116840C926F2145E0097AB2F = {
 			isa = PBXGroup;
 			children = (
+				110A897D26F874DA003B4FB7 /* AnotherOnboardingView.swift */,
 				116840D426F2145E0097AB2F /* dog_gram */,
 				116840D326F2145E0097AB2F /* Products */,
 			);
@@ -264,6 +267,7 @@
 				116840F826F265EC0097AB2F /* MessageView.swift in Sources */,
 				116840EB26F21C420097AB2F /* Extensions.swift in Sources */,
 				116840F426F22B6C0097AB2F /* PostArrayObject.swift in Sources */,
+				110A897E26F874DA003B4FB7 /* AnotherOnboardingView.swift in Sources */,
 				1189943226F3757F0013F7D6 /* ImageGridView.swift in Sources */,
 				116840EF26F21F170097AB2F /* PostView.swift in Sources */,
 				113472CC26F3C8DC002DCA0F /* ProfileView.swift in Sources */,
